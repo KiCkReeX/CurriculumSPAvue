@@ -100,7 +100,7 @@ const routes = [
 
 console.log('routes => ', routes)
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHashHistory(),
   routes,
   linkActiveClass: 'active',
 })
