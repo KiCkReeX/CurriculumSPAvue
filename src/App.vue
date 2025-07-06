@@ -86,7 +86,7 @@
               </p>
               <router-link
                 class="btn btn-primary smooth-scroll mr-2"
-                to="/Contact-Me"
+                to="/CurriculumSPAvue/Contact-Me"
                 data-aos="zoom-in"
                 >Contact me</router-link
               >
@@ -122,7 +122,7 @@
                 <a
                   class="btn btn-default btn-round btn-lg btn-icon"
                   href="https://github.com/KiCkReeX"
-                  title="Actually my projects are private"
+                  title="Check my github...actually my projects are private "
                 >
                   <i class="fa fa-github"></i>
                 </a>
