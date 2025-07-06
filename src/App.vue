@@ -26,33 +26,37 @@
             <div class="collapse navbar-collapse justify-content-end" id="navigation">
               <ul class="navbar-nav">
                 <li class="nav-item">
-                  <router-link class="nav-link smooth-scroll" to="/About-Me">About Me</router-link>
+                  <router-link class="nav-link smooth-scroll" to="/CurriculumSPAvue/About-Me"
+                    >About Me</router-link
+                  >
                 </li>
                 <li class="nav-item">
-                  <router-link class="nav-link smooth-scroll" to="/Education"
+                  <router-link class="nav-link smooth-scroll" to="/CurriculumSPAvue/Education"
                     >Education</router-link
                   >
                 </li>
                 <li class="nav-item">
-                  <router-link class="nav-link smooth-scroll" to="/Skills">Habilities</router-link>
+                  <router-link class="nav-link smooth-scroll" to="/CurriculumSPAvue/Skills"
+                    >Habilities</router-link
+                  >
                 </li>
                 <li class="nav-item">
-                  <router-link class="nav-link smooth-scroll" to="/Experience"
+                  <router-link class="nav-link smooth-scroll" to="/CurriculumSPAvue/Experience"
                     >Experience</router-link
                   >
                 </li>
                 <li class="nav-item">
-                  <router-link class="nav-link smooth-scroll" to="/Portfolio"
+                  <router-link class="nav-link smooth-scroll" to="/CurriculumSPAvue/Portfolio"
                     >Portfolio</router-link
                   >
                 </li>
                 <li class="nav-item">
-                  <router-link class="nav-link smooth-scroll" to="/References"
+                  <router-link class="nav-link smooth-scroll" to="/CurriculumSPAvue/References"
                     >References</router-link
                   >
                 </li>
                 <li class="nav-item">
-                  <router-link class="nav-link smooth-scroll" to="/Contact-Me"
+                  <router-link class="nav-link smooth-scroll" to="/CurriculumSPAvue/Contact-Me"
                     >Contact me</router-link
                   >
                 </li>

@@ -7,7 +7,7 @@
           <div class="row">
             <div class="col-md-6">
               <div class="progress-container progress-primary">
-                <span class="progress-badge">VUE + JavaScript</span>
+                <span class="progress-badge">VUE.js (JavaScript)</span>
                 <div class="progress">
                   <div
                     class="progress-bar progress-bar-primary"
@@ -26,7 +26,7 @@
             </div>
             <div class="col-md-6">
               <div class="progress-container progress-primary">
-                <span class="progress-badge">IOS/Android (IONIC CAPACITOR) </span>
+                <span class="progress-badge">IOS/Android (IONIC-CAPACITOR) </span>
                 <div class="progress">
                   <div
                     class="progress-bar progress-bar-primary"
@@ -47,7 +47,7 @@
           <div class="row">
             <div class="col-md-6">
               <div class="progress-container progress-primary">
-                <span class="progress-badge">SPRINGBOOT</span>
+                <span class="progress-badge">JAVA SPRINGBOOT</span>
                 <div class="progress">
                   <div
                     class="progress-bar progress-bar-primary"
@@ -106,7 +106,7 @@
             </div>
             <div class="col-md-6">
               <div class="progress-container progress-primary">
-                <span class="progress-badge">JAVA</span>
+                <span class="progress-badge">JAVA MAVEN</span>
                 <div class="progress">
                   <div
                     class="progress-bar progress-bar-primary"
@@ -127,7 +127,7 @@
           <div class="row">
             <div class="col-md-6">
               <div class="progress-container progress-primary">
-                <span class="progress-badge">ANGULARjs</span>
+                <span class="progress-badge">ANGULAR</span>
                 <div class="progress">
                   <div
                     class="progress-bar progress-bar-primary"
@@ -147,6 +147,46 @@
             <div class="col-md-6">
               <div class="progress-container progress-primary">
                 <span class="progress-badge">TypeScript</span>
+                <div class="progress">
+                  <div
+                    class="progress-bar progress-bar-primary"
+                    data-aos="progress-full"
+                    data-aos-offset="10"
+                    data-aos-duration="2000"
+                    role="progressbar"
+                    aria-valuenow="60"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                    style="width: 50%"
+                  ></div>
+                  <span class="progress-value">50%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="progress-container progress-primary">
+                <span class="progress-badge">MySQL</span>
+                <div class="progress">
+                  <div
+                    class="progress-bar progress-bar-primary"
+                    data-aos="progress-full"
+                    data-aos-offset="10"
+                    data-aos-duration="2000"
+                    role="progressbar"
+                    aria-valuenow="60"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                    style="width: 80%"
+                  ></div>
+                  <span class="progress-value">80%</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="progress-container progress-primary">
+                <span class="progress-badge">PostgreSQL</span>
                 <div class="progress">
                   <div
                     class="progress-bar progress-bar-primary"

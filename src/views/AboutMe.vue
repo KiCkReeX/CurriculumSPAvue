@@ -6,12 +6,15 @@
           <div class="col-lg-6 col-md-12">
             <div class="card-body">
               <div class="h4 mt-0 title">¡ABOUT ME!</div>
-              <p>Hi, Pablo here. I'm developer, team lider and telecomunnication manager.</p>
               <p>
-                Technology lover since childhood, started in the world of programming with JAVA
-                during high school, I have B.S. in Software Engineering and I’m WEB, API
-                Environment, Desktop and Videogames developer, as well as network architect and
-                computing security specialized SCRUM frameworks.
+                Hi, Pablo here. I'm Full Stack Developer, Project Manager and Telecomunnication
+                manager.
+              </p>
+              <p>
+                Technology lover since childhood, i'm a Software Engineer with over 5 years of
+                experience in Full Stack development and agile project leadership. Specialized in
+                enterprise, electoral, and financial solutions, with SCRUM certifications and
+                hands-on experience in cloud infrastructure (AWS, Docker, SD-WAN).
                 <a
                   href="https://www.linkedin.com/in/pablo-ulises-soto-benitez-70b098269"
                   target="_blank"
@@ -25,7 +28,7 @@
               <div class="h4 mt-0 title">Basic Information</div>
               <div class="row">
                 <div class="col-sm-4"><strong class="text-uppercase">Age:</strong></div>
-                <div class="col-sm-8">24</div>
+                <div class="col-sm-8">25</div>
               </div>
               <div class="row mt-3">
                 <div class="col-sm-4"><strong class="text-uppercase">Email:</strong></div>
@@ -41,7 +44,7 @@
               </div>
               <div class="row mt-3">
                 <div class="col-sm-4"><strong class="text-uppercase">Languages:</strong></div>
-                <div class="col-sm-8">Spanish (Native), English (B1) y Japanese (N4)</div>
+                <div class="col-sm-8">Spanish (Native), English (B1) & Japanese (N4)</div>
               </div>
             </div>
           </div>

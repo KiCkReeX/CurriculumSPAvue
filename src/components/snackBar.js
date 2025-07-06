@@ -1,6 +1,6 @@
 // Snackbar.js
 import { createApp } from 'vue'
-import Snackbar from './Snackbar.vue'
+import SnackBarComponent from './SnackBarComponent.vue'
 
 const mountSnackbar = (props) => {
   const app = createApp(Snackbar, props)

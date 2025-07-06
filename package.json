@@ -6,6 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "postbuild": "cp dist/index.html dist/404.html",
+    "deploy": "gh-pages -d dist",
     "preview": "vite preview",
     "test:unit": "vitest",
     "format": "prettier --write src/"
@@ -23,6 +25,7 @@
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.2.3",
     "@vue/test-utils": "^2.4.6",
+    "gh-pages": "^6.3.0",
     "jsdom": "^26.0.0",
     "prettier": "3.5.3",
     "vite": "^6.2.4",

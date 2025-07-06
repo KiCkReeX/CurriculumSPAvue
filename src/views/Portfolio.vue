@@ -40,9 +40,9 @@
                       <img src="/images/project-1.jpg" alt="Image" />
                       <figcaption>
                         <div class="h4">Recent Projects</div>
-                        <p>WEB/API Environment Development</p>
-                        <p>Mobile IONIC App</p>
-                        <p>FrontEnd</p>
+                        <p>WEB/API Environment</p>
+                        <p>Mobile IONIC/CAPACITOR Web-App</p>
+                        <p>FrontEnd with Angular & VUE</p>
                       </figcaption>
                     </figure></a
                   >

@@ -9,11 +9,11 @@ import References from '@/views/References.vue'
 
 const routes = [
   {
-    path: '/',
-    redirect: '/About-Me',
+    path: '/CurriculumSPAvue',
+    redirect: '/CurriculumSPAvue/About-Me',
   },
   {
-    path: '/About-Me',
+    path: '/CurriculumSPAvue/About-Me',
     name: 'AboutMe',
     component: AboutMe,
     meta: {
@@ -25,7 +25,7 @@ const routes = [
     },
   },
   {
-    path: '/Skills',
+    path: '/CurriculumSPAvue/Skills',
     name: 'skills',
     component: Skills,
     meta: {
@@ -37,7 +37,7 @@ const routes = [
     },
   },
   {
-    path: '/Experience',
+    path: '/CurriculumSPAvue/Experience',
     name: 'Experience',
     component: Experience,
     meta: {
@@ -49,7 +49,7 @@ const routes = [
     },
   },
   {
-    path: '/Education',
+    path: '/CurriculumSPAvue/Education',
     name: 'Education',
     component: Education,
     meta: {
@@ -61,7 +61,7 @@ const routes = [
     },
   },
   {
-    path: '/Contact-Me',
+    path: '/CurriculumSPAvue/Contact-Me',
     name: 'ContactMe',
     component: Contact,
     meta: {
@@ -73,7 +73,7 @@ const routes = [
     },
   },
   {
-    path: '/Portfolio',
+    path: '/CurriculumSPAvue/Portfolio',
     name: 'Portfolio',
     component: Portfolio,
     meta: {
@@ -85,7 +85,7 @@ const routes = [
     },
   },
   {
-    path: '/References',
+    path: '/CurriculumSPAvue/References',
     name: 'References',
     component: References,
     meta: {
@@ -100,7 +100,7 @@ const routes = [
 
 console.log('routes => ', routes)
 const router = createRouter({
-  history: createWebHashHistory(),
+  history: createWebHistory(),
   routes,
   linkActiveClass: 'active',
 })

@@ -131,16 +131,17 @@ const SendMail = async () => {
     cellPhone: cellPhone.value,
     message: Message.value,
   }
+  try {
+    const response = await emailService(false).Send(json)
+    if (response.status == 200) {
+      remitentName.value = ''
+      Email.value = ''
+      cellPhone.value = ''
+      Message.value = ''
 
-  const response = await emailService(false).Send(json)
-  if (response.status == 200) {
-    remitentName.value = ''
-    Email.value = ''
-    cellPhone.value = ''
-    Message.value = ''
-
-    showSnackbar({ message: 'Enviado correctamente', type: 'success' })
-  } else {
+      showSnackbar({ message: 'Enviado correctamente', type: 'success' })
+    }
+  } catch {
     showSnackbar({ message: 'No se pudo enviar el correo, intente de nuevo', type: 'error' })
   }
 }
