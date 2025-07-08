@@ -77,12 +77,12 @@
           <div class="container">
             <div class="content-center">
               <div class="cc-profile-image">
-                <a href="#"><img src="/images/MEphoto.JPG" alt="Pablo Soto" /></a>
+                <a href="https://www.youtube.com/watch?v=oHg5SJYRHA0"><img src="/images/MEphoto.JPG" alt="Pablo Soto" /></a>
               </div>
 
               <div class="h2 title">Pablo Ulises Soto Benítez</div>
               <p class="category text-white">
-                Project Leader, Developer and Telecommunication Manager
+                Project Leader, Full Stack Developer and Telecommunication Manager
               </p>
               <router-link
                 class="btn btn-primary smooth-scroll mr-2"

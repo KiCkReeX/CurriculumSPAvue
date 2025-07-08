@@ -5,9 +5,9 @@
         <div class="row">
           <div class="col-lg-6 col-md-12">
             <div class="card-body">
-              <div class="h4 mt-0 title">¡ABOUT ME!</div>
+              <div class="h4 mt-0 title">ABOUT ME!</div>
               <p>
-                Hi, Pablo here. I'm Full Stack Developer, Project Manager and Telecomunnication
+                Hi, Pablo here. I'm Full Stack Developer, Project Manager and Telecommunication
                 manager.
               </p>
               <p>
