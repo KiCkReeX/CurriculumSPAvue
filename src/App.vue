@@ -10,17 +10,17 @@
             <div class="navbar-translate">
               <a class="navbar-brand" href="#" rel="tooltip">spuCVonline</a>
               <button
-                class="navbar-toggler navbar-toggler"
+                class="navbar-toggler"
                 type="button"
-                data-toggle="collapse"
-                data-target="#navigation"
+                data-bs-toggle="collapse"
+                data-bs-target="#navigation"
                 aria-controls="navigation"
                 aria-expanded="false"
                 aria-label="Toggle navigation"
               >
-                <span class="navbar-toggler-bar bar1"></span
-                ><span class="navbar-toggler-bar bar2"></span
-                ><span class="navbar-toggler-bar bar3"></span>
+                <span class="navbar-toggler-bar bar1"></span>
+                <span class="navbar-toggler-bar bar2"></span>
+                <span class="navbar-toggler-bar bar3"></span>
               </button>
             </div>
             <div class="collapse navbar-collapse justify-content-end" id="navigation">
@@ -77,7 +77,9 @@
           <div class="container">
             <div class="content-center">
               <div class="cc-profile-image">
-                <a href="https://www.youtube.com/watch?v=oHg5SJYRHA0"><img src="/images/MEphoto.JPG" alt="Pablo Soto" /></a>
+                <a href="https://www.youtube.com/watch?v=oHg5SJYRHA0"
+                  ><img src="/images/MEphoto.JPG" alt="Pablo Soto"
+                /></a>
               </div>
 
               <div class="h2 title">Pablo Ulises Soto Benítez</div>
@@ -147,11 +149,23 @@
 <script setup>
 import { useRoute, useRouter } from 'vue-router'
 import { RouterView, RouterLink } from 'vue-router'
+import { watch } from 'vue'
+import { Collapse } from 'bootstrap'
 
 const router = useRouter()
 const route = useRoute()
-// onMounted((async) => {
-//   router.push('/home')
-// })
+
+watch(
+  () => route.fullPath,
+  () => {
+    setTimeout(() => {
+      const navbar = document.getElementById('navigation')
+      const toggleBtn = document.querySelector('.navbar-toggler')
+      if (navbar && navbar.classList.contains('show') && toggleBtn) {
+        toggleBtn.click() // fuerza el cierre simulando un click
+      }
+    }, 150)
+  },
+)
 </script>
 <style scoped></style>
