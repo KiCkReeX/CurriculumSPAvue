@@ -125,11 +125,148 @@
     </div>
   </div>
 
+  <!-- Modal ERP + ELECTRON -->
+  <div class="modal fade" id="ElectronERPModal" tabindex="-1" role="dialog" aria-labelledby="ElectronERPModalLabel" aria-hidden="true">
+    <div class="modal-dialog " role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="ElectronERPModalLabel">Electron ERP Software</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <figure class="cc-effect">
+            <p>I'm going to add this in the next update</p>
+            <!-- MOBILE FRONTEND -->
+            <!-- <figcaption>
+              <div class="h4">Task Tracker APP </div>
+              <p>A personal project designed to help users organize and manage their daily responsibilities efficiently using Task, Task list and list categories for the daily routine or work routine</p>
+            </figcaption>
+            <img src="/images/TaskTracker_login.png" alt="CRM Login Page" />
+            
+            <figcaption>
+              <p>It features several main sections:
+                <ul>
+                  <li><strong>My Day:</strong> A personalized view to focus on tasks scheduled or prioritized for the current day.</li>
+                  <li><strong>My Tasks:</strong> A comprehensive list of all the user’s tasks, providing a full overview of everything they need to work on.</li>
+                  <li><strong>Task Lists:</strong> Customizable lists where users can group tasks by category or project (e.g., Work, Personal, Shopping).</li>
+                  <li><strong>Finalized:</strong> A dedicated section for tasks that have been successfully completed.</li>
+                  <li><strong>Deleted Items:</strong> A section where completed or removed tasks are stored temporarily before being permanently deleted, allowing users to recover items if needed.</li>
+                </ul>
+              </p>
+            </figcaption>
+            <img src="/images/TaskTracker_home.png" alt="CRM Home Page" />
+
+            <figcaption>
+              <p>The front-end was developed using Ionic Framework and backend Vue.js, Bootstrap, CSS, and Axios.  
+              The project follows a component-based architecture with clearly separated layers: Views, Services, Libraries, Router, Stores, etc.</p>
+            </figcaption> -->
+
+            <!-- BACKEND -->
+            <!-- <figcaption>
+              <div class="h4">Back-End</div>
+              <p>Was developed in JAVA using Spring Boot using JWT, JPA, Hibernate and Servlet-api, etc.</p>
+            </figcaption>
+            <img src="/images/spring_jwt.png" alt="Swagger API Interface" /> -->
+
+            <!-- <figcaption>
+              <p>The backend architecture follows a layered design:
+                <ul>
+                  <li><strong>API Layer:</strong> Controllers and routes</li>
+                  <li><strong>Core Layer:</strong> Divided into Manager, Domain Logic, and Data Access</li>
+                  <li><strong>Models Layer:</strong> Database design and entity classes</li>
+                  <li><strong>Services Layer:</strong> Helper classes and external libraries</li>
+                </ul>
+              </p>
+            </figcaption>
+            <img src="/images/spring_login.png" alt="Backend Architecture Diagram" /> -->
+
+          </figure> 
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal GAMES DEVELOPMENT -->
+  <div class="modal fade" id="GamesDevelopmentModal" tabindex="-1" role="dialog" aria-labelledby="GamesDevelopmentModalLabel" aria-hidden="true">
+    <div class="modal-dialog " role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="GamesDevelopmentModalLabel">Game Development Software</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <figure class="cc-effect">
+            <p>I'm going to add this in the next update</p>
+            <!-- MOBILE FRONTEND -->
+            <!-- <figcaption>
+              <div class="h4">Task Tracker APP </div>
+              <p>A personal project designed to help users organize and manage their daily responsibilities efficiently using Task, Task list and list categories for the daily routine or work routine</p>
+            </figcaption>
+            <img src="/images/TaskTracker_login.png" alt="CRM Login Page" />
+            
+            <figcaption>
+              <p>It features several main sections:
+                <ul>
+                  <li><strong>My Day:</strong> A personalized view to focus on tasks scheduled or prioritized for the current day.</li>
+                  <li><strong>My Tasks:</strong> A comprehensive list of all the user’s tasks, providing a full overview of everything they need to work on.</li>
+                  <li><strong>Task Lists:</strong> Customizable lists where users can group tasks by category or project (e.g., Work, Personal, Shopping).</li>
+                  <li><strong>Finalized:</strong> A dedicated section for tasks that have been successfully completed.</li>
+                  <li><strong>Deleted Items:</strong> A section where completed or removed tasks are stored temporarily before being permanently deleted, allowing users to recover items if needed.</li>
+                </ul>
+              </p>
+            </figcaption>
+            <img src="/images/TaskTracker_home.png" alt="CRM Home Page" />
+
+            <figcaption>
+              <p>The front-end was developed using Ionic Framework and backend Vue.js, Bootstrap, CSS, and Axios.  
+              The project follows a component-based architecture with clearly separated layers: Views, Services, Libraries, Router, Stores, etc.</p>
+            </figcaption> -->
+
+            <!-- BACKEND -->
+            <!-- <figcaption>
+              <div class="h4">Back-End</div>
+              <p>Was developed in JAVA using Spring Boot using JWT, JPA, Hibernate and Servlet-api, etc.</p>
+            </figcaption>
+            <img src="/images/spring_jwt.png" alt="Swagger API Interface" /> -->
+
+            <!-- <figcaption>
+              <p>The backend architecture follows a layered design:
+                <ul>
+                  <li><strong>API Layer:</strong> Controllers and routes</li>
+                  <li><strong>Core Layer:</strong> Divided into Manager, Domain Logic, and Data Access</li>
+                  <li><strong>Models Layer:</strong> Database design and entity classes</li>
+                  <li><strong>Services Layer:</strong> Helper classes and external libraries</li>
+                </ul>
+              </p>
+            </figcaption>
+            <img src="/images/spring_login.png" alt="Backend Architecture Diagram" /> -->
+
+          </figure> 
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!---------------------------------------------MODAL ENDS----------------------------------------------------->
   <div class="section" id="portfolio">
     <div class="container">
       <div class="row">
         <div class="col-md-6 ml-auto mr-auto">
-          <div class="h4 text-center mb-4 title">Portfolio</div>
+          <div class="text-center mb-4">
+            <h4 class="title">Portfolio</h4>
+            <p>Please click on the images below to explore more in-depth descriptions of my work.</p>
+            <!-- <p>Click on any image below to view detailed information about the corresponding project, including technical architecture and implementation insights.</p> -->
+          </div>
           <div class="nav-align-center">
             <ul class="nav nav-pills nav-pills-primary" role="tablist">
               <li class="nav-item">
@@ -178,7 +315,7 @@
                   data-aos="fade-up"
                   data-aos-anchor-placement="top-bottom"
                 >
-                  <a href="#">
+                  <a href="#" data-toggle="modal" data-target="#ElectronERPModal">
                     <figure class="cc-effect">
                       <img src="/images/project-3.jpg" alt="Image" />
                       <figcaption>
@@ -210,7 +347,7 @@
                   data-aos="fade-up"
                   data-aos-anchor-placement="top-bottom"
                 >
-                  <a href="#">
+                  <a href="#" data-toggle="modal" data-target="#GamesDevelopmentModal">
                     <figure class="cc-effect">
                       <img src="/images/project-4.jpg" alt="Image" />
                       <figcaption>

@@ -72,7 +72,7 @@
           <div
             class="page-header-image"
             data-parallax="true"
-            style="background-image: url('public/images/cc-bg-1.jpg')"
+            :style="{ backgroundImage: `url(${background})` }"
           ></div>
           <div class="container">
             <div class="content-center">
@@ -101,28 +101,28 @@
             <div class="container">
               <div class="button-container">
                 <a
-                  class="btn btn-default btn-round btn-lg btn-icon"
+                  class="btn btn-whatsapp btn-default btn-round btn-lg btn-icon "
                   href="https://wa.me/526673505397?text=Hola,%20me%20gustaría%20contactarte"
                   title="Send me a WhatsApp"
                 >
                   <i class="fa fa-whatsapp"></i>
                 </a>
                 <a
-                  class="btn btn-default btn-round btn-lg btn-icon"
+                  class="btn btn-info btn-default btn-round btn-lg btn-icon"
                   href="https://www.linkedin.com/in/pablo-ulises-soto-benitez-70b098269/"
                   title="Check my LinkedIn"
                 >
                   <i class="fa fa-linkedin"></i>
                 </a>
                 <a
-                  class="btn btn-default btn-round btn-lg btn-icon"
+                  class="btn btn-hackerrank btn-default btn-round btn-lg btn-icon"
                   href="https://www.hackerrank.com/certificates/8c2f76566679"
                   title="Check my HackerRank"
                 >
                   <i class="fa fa-code"></i>
                 </a>
                 <a
-                  class="btn btn-default btn-round btn-lg btn-icon"
+                  class="btn btn-github  btn-default btn-round btn-lg btn-icon"
                   href="https://github.com/KiCkReeX"
                   title="Check my github...actually my projects are private "
                 >
@@ -151,6 +151,7 @@ import { useRoute, useRouter } from 'vue-router'
 import { RouterView, RouterLink } from 'vue-router'
 import { watch } from 'vue'
 import { Collapse } from 'bootstrap'
+import background from "../public/images/cc-bg-1.jpg"
 
 const router = useRouter()
 const route = useRoute()
@@ -168,4 +169,25 @@ watch(
   },
 )
 </script>
-<style scoped></style>
+<style scoped>
+.btn-github {
+  background-color: #6f42c1;
+  border-color: #6f42c1;
+}
+
+.btn-hackerrank{
+  background-color: #03b000;
+  border-color:#03b000;
+}
+
+.btn-linkedin{
+  background-color: #003e64;
+  border-color:#003e64;
+}
+
+.btn-whatsapp{
+  background-color: #00920a;
+  border-color:#00920a;
+}
+
+</style>
